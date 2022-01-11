@@ -9,7 +9,7 @@ namespace TestProj
         {
             string str = Console.ReadLine();
 
-            char[] temp = URLify(str, 13);
+            char[] temp = URLify(str, str.Length);
             
             for(int i = 0; i < temp.Length; i++)
             {
